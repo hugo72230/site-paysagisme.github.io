@@ -30,12 +30,22 @@
   object-fit: contain;
 }
 
-/* Logo du milieu : conservé à sa taille actuelle */
+/* Logo du milieu : centré dans la zone visuelle, taille conservée */
+.hero .hero-art {
+  position: relative;
+}
+
 .hero .hero-logo-img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 100%;
   max-width: 380px;
   height: auto;
   object-fit: contain;
+  z-index: 5;
 }
 
 /* Adaptation aux téléphones */
