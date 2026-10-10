@@ -5,5 +5,5 @@
 */
 window.SITE_CONFIG = {
   SUPABASE_URL: "https://brkjaxylpsuyoagqfcjl.supabase.co",
-  SUPABASE_ANON_KEY: "sb_secret_F5voaHvrYQuS3v8t4tWQkQ_xbBop1LA"
+  SUPABASE_ANON_KEY: "sb_publishable_4DhhNV-S2awbLTe0GgzozA_bt_UxplW"
 };
