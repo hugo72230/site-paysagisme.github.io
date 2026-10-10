@@ -10,7 +10,7 @@
   align-items: center;
   flex-shrink: 0;
   width: auto;
-  max-width: 240px;
+  max-width: 50px;
   overflow: hidden;
 }
 
@@ -45,11 +45,11 @@
 /* Adaptation aux téléphones */
 @media (max-width: 768px) {
   .site-header .brand {
-    max-width: 170px;
+    max-width: 50px;
   }
 
   .site-header .site-logo {
-    width: 145px;
+    width: 50px;
   }
 
   .hero .hero-logo-img {
